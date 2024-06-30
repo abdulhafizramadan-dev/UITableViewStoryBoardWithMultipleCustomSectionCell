@@ -16,6 +16,10 @@
 		3C2646202C31102C00FB9C78 /* UITableViewStoryBoardWithMultipleCustomSectionCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26461F2C31102C00FB9C78 /* UITableViewStoryBoardWithMultipleCustomSectionCellTests.swift */; };
 		3C26462A2C31102C00FB9C78 /* UITableViewStoryBoardWithMultipleCustomSectionCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2646292C31102C00FB9C78 /* UITableViewStoryBoardWithMultipleCustomSectionCellUITests.swift */; };
 		3C26462C2C31102C00FB9C78 /* UITableViewStoryBoardWithMultipleCustomSectionCellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26462B2C31102C00FB9C78 /* UITableViewStoryBoardWithMultipleCustomSectionCellUITestsLaunchTests.swift */; };
+		3C26463A2C3114AA00FB9C78 /* ImageLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2646382C3114AA00FB9C78 /* ImageLabelTableViewCell.swift */; };
+		3C26463B2C3114AA00FB9C78 /* ImageLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C2646392C3114AA00FB9C78 /* ImageLabelTableViewCell.xib */; };
+		3C26463E2C311FE800FB9C78 /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26463C2C311FE800FB9C78 /* FieldTableViewCell.swift */; };
+		3C26463F2C311FE800FB9C78 /* FieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C26463D2C311FE800FB9C78 /* FieldTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		3C2646252C31102C00FB9C78 /* UITableViewStoryBoardWithMultipleCustomSectionCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewStoryBoardWithMultipleCustomSectionCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2646292C31102C00FB9C78 /* UITableViewStoryBoardWithMultipleCustomSectionCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewStoryBoardWithMultipleCustomSectionCellUITests.swift; sourceTree = "<group>"; };
 		3C26462B2C31102C00FB9C78 /* UITableViewStoryBoardWithMultipleCustomSectionCellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewStoryBoardWithMultipleCustomSectionCellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C2646382C3114AA00FB9C78 /* ImageLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelTableViewCell.swift; sourceTree = "<group>"; };
+		3C2646392C3114AA00FB9C78 /* ImageLabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageLabelTableViewCell.xib; sourceTree = "<group>"; };
+		3C26463C2C311FE800FB9C78 /* FieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
+		3C26463D2C311FE800FB9C78 /* FieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FieldTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				3C2646112C31102C00FB9C78 /* Assets.xcassets */,
 				3C2646132C31102C00FB9C78 /* LaunchScreen.storyboard */,
 				3C2646162C31102C00FB9C78 /* Info.plist */,
+				3C2646382C3114AA00FB9C78 /* ImageLabelTableViewCell.swift */,
+				3C2646392C3114AA00FB9C78 /* ImageLabelTableViewCell.xib */,
+				3C26463C2C311FE800FB9C78 /* FieldTableViewCell.swift */,
+				3C26463D2C311FE800FB9C78 /* FieldTableViewCell.xib */,
 			);
 			path = UITableViewStoryBoardWithMultipleCustomSectionCell;
 			sourceTree = "<group>";
@@ -232,7 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2646122C31102C00FB9C78 /* Assets.xcassets in Resources */,
+				3C26463F2C311FE800FB9C78 /* FieldTableViewCell.xib in Resources */,
 				3C2646152C31102C00FB9C78 /* Base in Resources */,
+				3C26463B2C3114AA00FB9C78 /* ImageLabelTableViewCell.xib in Resources */,
 				3C2646102C31102A00FB9C78 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +274,8 @@
 			files = (
 				3C26460D2C31102A00FB9C78 /* ViewController.swift in Sources */,
 				3C2646092C31102A00FB9C78 /* AppDelegate.swift in Sources */,
+				3C26463E2C311FE800FB9C78 /* FieldTableViewCell.swift in Sources */,
+				3C26463A2C3114AA00FB9C78 /* ImageLabelTableViewCell.swift in Sources */,
 				3C26460B2C31102A00FB9C78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
